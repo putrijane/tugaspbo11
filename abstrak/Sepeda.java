@@ -1,0 +1,17 @@
+package abstrak;
+
+public class Sepeda extends Kendaraan {
+	public Sepeda (String nama) {
+		this.nama = nama;
+	}
+	
+	@Override
+	public void nyalakan() {
+		System.out.println("Duduklah di atas sadel" + this.nama +"Berjalan Sendiri");
+	}
+
+    public void jalankan() {
+    }
+
+    
+    }
